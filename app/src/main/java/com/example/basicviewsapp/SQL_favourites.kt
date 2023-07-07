@@ -1,9 +1,6 @@
 package com.example.basicviewsapp
 
-import android.database.sqlite.SQLiteDatabase
-import android.database.sqlite.SQLiteOpenHelper
-
-class SQL_favourits /*:SQLiteOpenHelper() */{
+class SQL_favourites /*:SQLiteOpenHelper() */{
 /*
     override fun onCreate(db: SQLiteDatabase?) {
         TODO("Not yet implemented")

@@ -13,7 +13,7 @@
         android:theme="@style/Theme.BasicViewsApp"
         tools:targetApi="31">
         <activity
-            android:name=".favourits_page"
+            android:name=".favourites_page"
             android:exported="false" />
         <activity
             android:name=".add_note"

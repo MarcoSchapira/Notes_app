@@ -3,17 +3,14 @@ package com.example.basicviewsapp
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.WindowCompat
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import android.view.Menu
 import android.view.MenuItem
-import android.widget.Button
 import com.example.basicviewsapp.databinding.ActivityMainBinding
 import com.google.android.material.floatingactionbutton.FloatingActionButton
-import com.google.android.material.snackbar.Snackbar
 
 class MainActivity : AppCompatActivity() {
 
@@ -37,7 +34,7 @@ class MainActivity : AppCompatActivity() {
         val fav_buttonClick = findViewById<FloatingActionButton>(R.id.favorits_fab)
         fav_buttonClick.setOnClickListener { //view ->
             //Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-            val intent = Intent(this,favourits_page::class.java)
+            val intent = Intent(this,favourites_page::class.java)
             startActivity(intent)
                 //.setAnchorView(R.id.fab)
                 //.setAction("Action", null).show()
